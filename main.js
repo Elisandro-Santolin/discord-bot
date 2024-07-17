@@ -179,16 +179,9 @@ client.on(Events.InteractionCreate, async interaction => {
                     .setCustomId('selectRequester')
                     .setPlaceholder('❌ Nenhuma opção válida selecionada')
                     .addOptions([
-                        { label: 'Adenilson Nicolodi', value: 'Adenilson Nicolodi' },
-                        { label: 'Deividi Zaions', value: 'Deividi Zaions' },
-                        { label: 'Elisandro Santolin', value: 'Elisandro Santolin' },
-                        { label: 'Gabriel Costa', value: 'Gabriel Costa' },
-                        { label: 'Henri Grzegozeski', value: 'Henri Grzegozeski' },
-                        { label: 'João Fink', value: 'João Fink' },
-                        { label: 'Jaques A. Hoscharuck', value: 'Jaques A. Hoscharuck' },
-                        { label: 'Lucas Martins', value: 'Lucas Martins' },
-                        { label: 'Nildo Nunes Barboza Júnior', value: 'Nildo Nunes Barboza Júnior' },
-                        { label: 'Suelen Szmais', value: 'Suelen Szmais' },
+                        { label: 'name', value: 'value' },
+                        { label: 'name1', value: 'value1' },
+			{ label: 'name2', value: 'value2' },
                     ])
             );
 
