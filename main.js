@@ -181,7 +181,7 @@ client.on(Events.InteractionCreate, async interaction => {
                     .addOptions([
                         { label: 'name', value: 'value' },
                         { label: 'name1', value: 'value1' },
-			{ label: 'name2', value: 'value2' },
+			            { label: 'name2', value: 'value2' },
                     ])
             );
 
